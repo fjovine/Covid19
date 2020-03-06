@@ -2,7 +2,7 @@
 
 Since the beginning of the Covid-19 disease, the Johns Hopkins university made available worldwide this [site](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) representing in real time the evoluzion of the infectuous disease as a worldwide map where red circles centered on each country represent the updated situazion in terms of confirmed infected.
 
-This picture, though, gives only a snapshot of the current situation but there is this [GitHub](https://github.com/CSSEGISandData/COVID-19) site, updated every day, containing the history of these databases day by day in CSV (Comma Separated Values) forma.
+This picture, though, gives only a snapshot of the current situation but there is this [GitHub](https://github.com/CSSEGISandData/COVID-19) site, updated every day, containing the history of these databases day by day in CSV (Comma Separated Values) format.
 
 This repository contains a simple bash script that downloads these files, filters out the desired country and generates a CSV file with the time series of infected and deaths for the selected country.
 
