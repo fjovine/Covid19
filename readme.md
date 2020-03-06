@@ -37,7 +37,7 @@ You should have the admin rights for the machine or you should be a sudoer.
 1. Download the script from [here](https://raw.githubusercontent.com/fjovine/Covid19/master/get.sh) saving it in a folder for which write rights are provided
 
 2. Make the script executable with the command
-chmod 0777 get.sh
+`chmod 0777 get.sh`
 
 3. Run the script with `./get.sh <country>`
 
