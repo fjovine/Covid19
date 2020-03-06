@@ -39,9 +39,9 @@ You should have the admin rights for the machine or you should be a sudoer.
 2. Make the script executable with the command
 chmod 0777 get.sh
 
-3. Run the script with `./get.sh <country>.`
+3. Run the script with `./get.sh <country>`
 
-For Italy open a command window and type `./get.sh Italy`.
+For Italy open a command window and type `./get.sh Italy`
 
 After a while during which you will see the dates being downloaded and filtered, **libreoffice** is launched and the generated data will be processed.
 
