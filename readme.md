@@ -1,6 +1,6 @@
 # Covid19 downloader
 
-Since the beginning of the Covid-19 disease the John Hopkins university made available worldwide this site representing in real time the evoluzion of the infectuous disease.
+Since the beginning of the Covid-19 disease the Johns Hopkins university made available worldwide this site representing in real time the evoluzion of the infectuous disease.
 
 The site [Covid-19](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) shows a worldwide map where red circles centered on each country represent the updated situazion in terms of confirmed infected.
 
