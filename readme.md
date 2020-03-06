@@ -1,6 +1,6 @@
 # Covid19 downloader
 
-Since the beginning of the Covid-19 disease the Johns Hopkins university made available worldwide this site representing in real time the evoluzion of the infectuous disease.
+Since the beginning of the Covid-19 disease, the Johns Hopkins university made available worldwide this site representing in real time the evoluzion of the infectuous disease.
 
 The site [Covid-19](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) shows a worldwide map where red circles centered on each country represent the updated situazion in terms of confirmed infected.
 
@@ -36,7 +36,7 @@ libreoffice --calc -o covid19$theCountry.csv
 
 You should have the admin rights for the machine or you should be a sudoer.
 
-1. Download the script from here saving in a folder for which write rights are provided
+1. Download the script from [here](https://raw.githubusercontent.com/fjovine/Covid19/master/get.sh) saving it in a folder for which write rights are provided
 
 2. Make the script executable with the command
 chmod 0777 get.sh
@@ -44,19 +44,20 @@ chmod 0777 get.sh
 3. Run the script with `./get.sh <country>.`
 
 For Italy open a command window and type `./get.sh Italy`.
-After a while during which you will see the dates being downloaded and filtered, libreoffice is opened and the generated data will be opened.
 
-Then a dialog like this will be opened
+After a while during which you will see the dates being downloaded and filtered, **libreoffice** is launched and the generated data will be processed.
+
+A dialog like this will be shown
 
 ![csv](doc/pic01.png)
 
-Pressing the **OK** button you will get a spreadsheet with three columns, namely 
+Pressing the **OK** button you will get a spreadsheet with three columns, containing
 
 * the date
 * the infected count
 * the dead count
 
-After creating the chart, you will get something like the following
+After manually creating the chart, you will get something like the following
 
 ![chart](doc/pic02.png)
 
